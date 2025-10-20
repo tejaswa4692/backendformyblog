@@ -72,4 +72,4 @@ def add_card():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 3306)))
+    app.run(host="0.0.0.0", port=int(os.environ.get("MYSQL_PORT", 23200)))
